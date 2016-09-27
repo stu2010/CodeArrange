@@ -82,7 +82,7 @@
     NSString *ss = @"你好";
     NSLog(@"----SHA256:%@",[ss SHA256]);
 
-
+    NSLog(@"hahah ");
 }
 
 /////
