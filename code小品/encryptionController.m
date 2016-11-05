@@ -43,7 +43,6 @@
     
     [self SHA256test];
     
-    [self openfile];
 }
 -(void)ASE256test{
 
@@ -84,22 +83,5 @@
 
 }
 
-/////
--(void)openfile{
-    
-        NSURL *url = [NSURL URLWithString:@"sssss"];
-        [self setupDocumentControllerWithURL:url];
-        [self.docInteractionController presentOptionsMenuFromRect:CGRectMake(0, 20, 1500, 40) inView:self.view  animated:YES];
 
-}
-
-- (void)setupDocumentControllerWithURL:(NSURL *)url
-{
-    if (self.docInteractionController == nil){
-        self.docInteractionController = [UIDocumentInteractionController interactionControllerWithURL:url];
-        self.docInteractionController.delegate = self;
-    }else{
-        self.docInteractionController.URL = url;
-    }
-}
 @end
