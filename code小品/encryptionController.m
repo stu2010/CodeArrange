@@ -34,7 +34,7 @@
     
     // 3. 在其他地方使用时,根据不同的key 使用ASE256加密／解密方法存储解析数据。
     //sssss
-
+//ssh 到底有什么用 你告诉我 来 才尼玛
     [self ASE256test];
     
     [self base64test];
