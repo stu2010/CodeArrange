@@ -12,6 +12,7 @@
 #import "masonryTestController.h"
 #import "headerViewContrller.h"
 #import "encryptionController.h"
+#import "searchViewController.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 {
@@ -58,6 +59,8 @@
         str = @"headerview + ";
     }else if (indexPath.row == 4){
         str = @"几种加密方法";
+    }else if (indexPath.row == 5){
+        str = @"searchViewController 使用";
     }
     cell.textLabel.text = str;
     return cell;
@@ -76,6 +79,8 @@
         vc = [[headerViewContrller alloc]init];
     }else if (indexPath.row == 4){
         vc = [[encryptionController alloc]init];
+    }else if (indexPath.row == 5){
+        vc = [[searchViewController alloc]init];
     }
     [self.navigationController pushViewController:vc animated:YES];
 }

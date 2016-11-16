@@ -40,6 +40,9 @@
 		4CCC4B4D1D95247700A9A0F1 /* EncryptionUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CCC4B4A1D95247700A9A0F1 /* EncryptionUtil.m */; };
 		4CCC4B561D952F6300A9A0F1 /* NSString+util.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CCC4B551D952F6300A9A0F1 /* NSString+util.m */; };
 		4CD9537F1D98AE2400845159 /* encryptionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD9537E1D98AE2400845159 /* encryptionController.m */; };
+		53E8956F1DDCA61F0099E0B7 /* searchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53E8956E1DDCA61F0099E0B7 /* searchViewController.m */; };
+		53E895741DDCA6880099E0B7 /* ViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 53E895711DDCA6880099E0B7 /* ViewController1.m */; };
+		53E895751DDCA6880099E0B7 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 53E895731DDCA6880099E0B7 /* ViewController2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -106,6 +109,12 @@
 		4CCC4B551D952F6300A9A0F1 /* NSString+util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+util.m"; sourceTree = "<group>"; };
 		4CD9537D1D98AE2400845159 /* encryptionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = encryptionController.h; sourceTree = "<group>"; };
 		4CD9537E1D98AE2400845159 /* encryptionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = encryptionController.m; sourceTree = "<group>"; };
+		53E8956D1DDCA61F0099E0B7 /* searchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = searchViewController.h; sourceTree = "<group>"; };
+		53E8956E1DDCA61F0099E0B7 /* searchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = searchViewController.m; sourceTree = "<group>"; };
+		53E895701DDCA6880099E0B7 /* ViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController1.h; sourceTree = "<group>"; };
+		53E895711DDCA6880099E0B7 /* ViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController1.m; sourceTree = "<group>"; };
+		53E895721DDCA6880099E0B7 /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		53E895731DDCA6880099E0B7 /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,6 +196,12 @@
 				4CCC4B451D94C68900A9A0F1 /* headerViewContrller.m */,
 				4CD9537D1D98AE2400845159 /* encryptionController.h */,
 				4CD9537E1D98AE2400845159 /* encryptionController.m */,
+				53E8956D1DDCA61F0099E0B7 /* searchViewController.h */,
+				53E8956E1DDCA61F0099E0B7 /* searchViewController.m */,
+				53E895701DDCA6880099E0B7 /* ViewController1.h */,
+				53E895711DDCA6880099E0B7 /* ViewController1.m */,
+				53E895721DDCA6880099E0B7 /* ViewController2.h */,
+				53E895731DDCA6880099E0B7 /* ViewController2.m */,
 			);
 			name = controller;
 			sourceTree = "<group>";
@@ -338,6 +353,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4CCC4B4D1D95247700A9A0F1 /* EncryptionUtil.m in Sources */,
+				53E895751DDCA6880099E0B7 /* ViewController2.m in Sources */,
 				4CCC4B061D913A7100A9A0F1 /* savePicture2AlbumController.m in Sources */,
 				4CCC4B0D1D92445100A9A0F1 /* MBProgressHUD.m in Sources */,
 				4CCC4B561D952F6300A9A0F1 /* NSString+util.m in Sources */,
@@ -347,10 +363,12 @@
 				4CCC4B3F1D93725D00A9A0F1 /* View+MASAdditions.m in Sources */,
 				4CCC4B3A1D93725D00A9A0F1 /* MASLayoutConstraint.m in Sources */,
 				4CCC4B381D93725D00A9A0F1 /* MASConstraint.m in Sources */,
+				53E895741DDCA6880099E0B7 /* ViewController1.m in Sources */,
 				4CCC4B3E1D93725D00A9A0F1 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				4CCC4B371D93725D00A9A0F1 /* MASCompositeConstraint.m in Sources */,
 				4CD9537F1D98AE2400845159 /* encryptionController.m in Sources */,
 				4CCC4B431D93764B00A9A0F1 /* masonryTestController.m in Sources */,
+				53E8956F1DDCA61F0099E0B7 /* searchViewController.m in Sources */,
 				4CCC4AEA1D912C4C00A9A0F1 /* ViewController.m in Sources */,
 				4CCC4AE71D912C4C00A9A0F1 /* AppDelegate.m in Sources */,
 				4CCC4B391D93725D00A9A0F1 /* MASConstraintMaker.m in Sources */,
